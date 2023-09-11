@@ -1,0 +1,20 @@
+2023-09-08T21:35:18.712601Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.1
+2023-09-08T21:35:33.073254Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.1
+2023-09-08T21:35:40.248266Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.1
+2023-09-08T21:40:42.945432Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.1
+2023-09-08T21:40:45.512201Z  INFO sui::client_commands:                              Object ID                              |  Gas Value 
+2023-09-08T21:40:45.512254Z  INFO sui::client_commands: ----------------------------------------------------------------------------------
+2023-09-08T21:40:53.199644Z  INFO sui::client_commands:                              Object ID                              |  Gas Value 
+2023-09-08T21:40:53.199707Z  INFO sui::client_commands: ----------------------------------------------------------------------------------
+2023-09-08T21:40:53.199715Z  INFO sui::client_commands:  0x4470de47bde7377ba7de09ff01c092d038f17f3316fe51587838571cad31d207 | 10000000000
+2023-09-08T21:40:53.199718Z  INFO sui::client_commands:  0x62e1fc1abbe57027e4b0d68acaafe170ae8b3611f152aa327f63f5d63fd66ae5 | 10000000000
+2023-09-08T21:40:53.199722Z  INFO sui::client_commands:  0x681f6b636925573fdccbc124e8161504ba0e19f40410af1d177e7ac0d2a829f0 | 10000000000
+2023-09-08T21:40:53.199726Z  INFO sui::client_commands:  0x8e6765a9e9a2a7ec85a642e713abaf436519220427d8c4eb3ec6af10f957dbef | 10000000000
+2023-09-08T21:47:11.131494Z  INFO sui::client_commands:                              Object ID                              |  Gas Value 
+2023-09-08T21:47:11.131546Z  INFO sui::client_commands: ----------------------------------------------------------------------------------
+2023-09-08T21:47:11.131549Z  INFO sui::client_commands:  0x4470de47bde7377ba7de09ff01c092d038f17f3316fe51587838571cad31d207 | 10000000000
+2023-09-08T21:47:11.131563Z  INFO sui::client_commands:  0x62e1fc1abbe57027e4b0d68acaafe170ae8b3611f152aa327f63f5d63fd66ae5 | 10000000000
+2023-09-08T21:47:11.131576Z  INFO sui::client_commands:  0x681f6b636925573fdccbc124e8161504ba0e19f40410af1d177e7ac0d2a829f0 | 10000000000
+2023-09-08T21:47:11.131590Z  INFO sui::client_commands:  0x8e6765a9e9a2a7ec85a642e713abaf436519220427d8c4eb3ec6af10f957dbef | 10000000000
+2023-09-08T21:47:11.131603Z  INFO sui::client_commands:  0xd0a09e0846a1eaf174527620f0774f266307c2b94f9e76325929c93705501ad5 | 10000000000
+2023-09-08T21:50:37.288259Z  INFO sui::client_commands: 0x43d36e84366f2574b281c60df09d3770f8ac8cf52ff0f1a012e28fe97c803e23

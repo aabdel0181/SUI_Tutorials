@@ -1,0 +1,17 @@
+2023-09-06T16:46:16.421400Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.7.1, server api version : 1.9.0
+2023-09-06T18:49:06.041505Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T18:49:15.701934Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T18:49:37.261995Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T18:53:31.958722Z  INFO sui::client_commands: devnet => https://fullnode.devnet.sui.io:443 (active)
+2023-09-06T18:56:06.612935Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T18:56:21.355568Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T18:56:31.270431Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T18:58:31.203906Z  INFO sui::client_commands: devnet => https://fullnode.devnet.sui.io:443 (active)
+2023-09-06T18:58:44.608990Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T19:04:21.439239Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T19:11:47.109985Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T19:25:16.085818Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T19:54:34.213903Z  INFO sui::client_commands: devnet => https://fullnode.devnet.sui.io:443 (active)
+2023-09-06T19:56:28.726710Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T20:10:56.674605Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0
+2023-09-06T20:11:42.868228Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.8.3, server api version : 1.9.0

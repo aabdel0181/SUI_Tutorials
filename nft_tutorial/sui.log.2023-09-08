@@ -1,0 +1,2 @@
+2023-09-08T21:32:40.027189Z  INFO sui::client_commands: devnet => https://fullnode.devnet.sui.io:443 (active)
+2023-09-08T21:32:59.354207Z  INFO sui::client_commands: 0x43d36e84366f2574b281c60df09d3770f8ac8cf52ff0f1a012e28fe97c803e23
