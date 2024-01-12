@@ -30,4 +30,6 @@ module nft_tutorial::nft_example {
         transfer::transfer(nft, sender);
     }
 
+    //NOTE: we use string::utf8(bytes) which takes in a vector of u8s and outputs a strin g
+    // new_unsafe_from_bytes converts bytes into a url format, without verifying validity
 }

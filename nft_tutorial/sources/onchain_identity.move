@@ -37,11 +37,15 @@ module nft_tutorial::onchain_identity {
 
         let old_bio = option::swap_or_fill(&mut user_profile.bio, string::utf8(new_bio)); //swap or fill means if we have nothing, put this one in. If we have a bio, update it 
 
-        // We don't care about the old bio anymore, let's delete it!
+        // We don't care about the old bio anymore, let's delete it by destructuring!
         _ = old_bio;
     }
 
+    //We just deleted a field, but how do we delete an object? 
+
     public entry fun delete_profile(_: &AdminCap, user_profile: UserProfile) {
+
+        //we must destructure the struct, setting all fields equal to _ EXPECT ID 
         let UserProfile {
             id,
             user_address: _,
@@ -50,6 +54,7 @@ module nft_tutorial::onchain_identity {
             twitter_handle: _,
         } = user_profile;
 
+        //We cannot just destructure the struct, we must call object::delete(id) to properly delete the UID from the chain
         object::delete(id);
     }
     

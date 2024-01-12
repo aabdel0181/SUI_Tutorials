@@ -1,0 +1,7 @@
+2024-01-12T21:40:24.092323Z  INFO sui::client_commands: 0xee73d7dc24d6cc3bf894dcfbac0d1e887c73e9b77b7026e44113780b1657755d
+2024-01-12T21:40:37.446011Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.7.1, server api version : 1.16.0
+2024-01-12T21:40:37.474478Z  INFO sui::client_commands:                              Object ID                              |  Gas Value 
+2024-01-12T21:40:37.474683Z  INFO sui::client_commands: ----------------------------------------------------------------------------------
+2024-01-12T21:43:08.009848Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.7.1, server api version : 1.16.0
+2024-01-12T21:43:08.036836Z  INFO sui::client_commands:                              Object ID                              |  Gas Value 
+2024-01-12T21:43:08.037181Z  INFO sui::client_commands: ----------------------------------------------------------------------------------

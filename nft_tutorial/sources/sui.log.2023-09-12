@@ -1,0 +1,2 @@
+2023-09-12T15:32:41.364540Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.7.1, server api version : 1.10.0
+2023-09-12T15:32:48.040974Z  INFO sui::client_commands: 0xee73d7dc24d6cc3bf894dcfbac0d1e887c73e9b77b7026e44113780b1657755d

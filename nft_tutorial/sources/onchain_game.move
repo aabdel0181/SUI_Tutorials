@@ -17,9 +17,10 @@ module nft_tutorial::onchain_game {
         hitpoints: u64,
         xp: u64,
         url: Url,
-        sword: Option<Sword>, //can or cannot have a sword -> sword is wrapped by hero 
+        sword: Option<Sword>, //can or cannot have a sword -> sword is wrapped by hero NOT Owned by hero  
     }
 
+    //sword has key and store because it can exist as a standalone object or can be wrapped inside another object
     struct Sword has key, store {
         id: UID,
         min_level: u64,
@@ -40,9 +41,10 @@ module nft_tutorial::onchain_game {
             hitpoints: 100,
             xp: 0,
             url: url::new_unsafe_from_bytes(url),
-            sword: option::none()
+            sword: option::none() //they start without a sword
         };
 
         transfer::transfer(hero, player);
     }
+    //What if we wanted to add shields or other items not currently in the struct. How? Dynamic fields! 
 }
