@@ -50,7 +50,6 @@ module intro_df::intro_df {
     {
         //here we first grab the child using the ofield borrow function, passing in the child name to obtain 
         let child = ofield::borrow_mut<vector<u8>, DOFChild>(&mut parent.id, child_name); 
-
         //then we call our function 
         mutate_dofchild(child); 
     }
