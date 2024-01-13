@@ -1,0 +1,13 @@
+***Collections 
+* Dynamic field's extended objects --> they bring new life to objects 
+* However they have some drawbacks: 
+    - can accidentally delete non-drop dynamic fields 
+
+Solution: Bag and Table's 
+
+|                  |   Non-object values    |   Object Values    |
+------------------------------------------------------------------
+| Heterogenous Map |        Bag             |      object_bag    |
+------------------------------------------------------------------
+|  Homogenous Map  |       table            |     object_table   | 
+------------------------------------------------------------------                    
