@@ -7,7 +7,8 @@ module intro_df::car {
     use sui::dynamic_object_field as ofield; 
 
     //Car struct stored on-chain and with Stats attribute 'Stats'
-    struct Car has key {
+    //UPDATED STORE PER COMPOSABILITY 
+    struct Car has key, store {
         id: UID, 
         stats: Stats, 
     }
@@ -71,5 +72,11 @@ module intro_df::car {
         get_url_via_child(decal_child)
     }
 
-    
+    /** NOW: COMPOSABILITY 
+    ** What is composability? 
+    ** It's the ability to utilize the same objects accross different dapps. We'll do this using cappy.DAPP 
+    **/ 
+
+    //we want to be able to add the car as an item for our Cappy. However, the API for add_item requires that T: key + store. Therefore, we must update our Car struct to have store (transferrable and comnposable )
+
 }
